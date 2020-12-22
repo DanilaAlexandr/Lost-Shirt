@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'alegreya';
+    src: url('../fonts/alegreyasanssc-black-webfont.woff2') format('woff2'),
+         url('../fonts/alegreyasanssc-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+html, body{
+	height: 100%
+}
+body{
+	font: 16px / 1.42 "Roboto", Arial, sans-serif;
+	color: #212121;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+}
+.hero{
+	height: 100vh;
+	min-height: 650px;
+	background: url(../img/bg.png) center center / cover no-repeat;
+}
+.header{
+	width: 1150px;
+	margin: 0 auto;
+	justify-content: space-between;
+	display: flex;
+	align-items: center;	
+}
+.mail{
+	text-decoration: none;
+	text-align: center;
+	color: inherit;
+}
+.mail__title{
+	margin-bottom: 3px;
+}
+.mail__content{
+	background: #212121;
+	color: #ffbc2f;
+	padding: 5px 10px;
+}
+.fade-slaider{
+	position: absolute;
+	width: 1140px;
+	height: 72%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.fade-slaider__item{
+	background: url(../img/slider_pic_1.png) center center / contain no-repeat;
+	height: 100%;
+}
+.lined-text{
+font-family: "alegreya", Arial, sans-serif;
+color:#fff;
+font-size: 63px;
+text-transform: uppercase;
+line-height: 1;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-164%,-52%);
+}
+.lined-text__word{
+	background: #000;
+	padding-top: 0 17px 8px;
+	margin-top: -7px;
+}
+.lined-text__word--color-yellow{
+	color: #ffbc2f;
+
+}
+.lined-text__word:nth-child(2n){
+	margin-left: 8px;
+}
