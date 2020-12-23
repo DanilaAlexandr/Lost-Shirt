@@ -8,8 +8,11 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
 </head>
 <body>
+	<div class="wrapper">
 	<section class="hero">
 		<header class="header">
 			<a href="#" class="logo">
@@ -20,9 +23,11 @@
 				<div class="mail__content">lost.shitr@mail.ru</div>
 			</a>
 		</header>
-		<div class="fade-slaider">
+		<div class="hero__content">
+			<div class="fade-slaider">
 			<div class="fade-slaider__item">
-				<h1 class="lined-text">
+				<div class="lined-text">
+					<h1 class="lined-text">
 					<div class="lined-text__word">три</div>
 					<div class="lined-text__word">футболки</div>
 					<div class="lined-text__word lined-text__word--color-yellow">по цене</div>
@@ -30,6 +35,89 @@
 				</h1>
 			</div>
 		</div>
+			</div>
+		</div>		
 	</section>
+	<section class="products">
+	<div class="container">
+		<ul class="filter">
+	<li class="filter__item  filter__item--active">
+		<a href="#" class="filter__link">Популярное</a>
+	</li>
+	<li class="filter__item">
+		<a href="#" class="filter__link">Новинки</a>
+	</li>
+	<li class="filter__item">
+		<a href="#" class="filter__link">Бестселлеры</a>
+	</li>
+	<li class="filter__item">
+		<a href="#" class="filter__link">Специальный предложения</a>
+	</li>
+	<li class="filter__item">
+		<a href="#" class="filter__link">Скоро в продаже</a>
+	</li>
+	</ul>
+	<ul class="products__list">
+		<li class="products__item">
+			<div class="products__content">
+				<img src="img/tshirt_01.png" class="products__img" alt="bo-jack tshirt"></img>
+				<div class="products__desc">
+					<div class="products__desc-text">
+						Lorem ipsum dolor sit amet consectetur adipisicing.
+					</div>
+					<a href="#" class="btn">Подробнее</a>
+				</div>
+			</div>
+		</li>
+		<li class="products__item">
+			<div class="products__content">
+				<img src="img/tshirt_02.png" class="products__img" alt="bo-jack tshirt"></img>
+				<div class="products__desc">
+					<div class="products__desc-text">
+						Lorem ipsum dolor sit amet consectetur adipisicing.
+					</div>
+					<a href="#" class="btn">Подробнее</a>
+				</div>
+			</div>
+		</li>
+		<li class="products__item products__item--color-black products__item--size-double">
+			<div class="products__content">
+				<img src="img/tshirt_03.png" class="products__img" alt="bo-jack tshirt"></img>
+				<div class="products__desc">
+					<div class="products__desc-text">
+						Lorem ipsum dolor sit amet consectetur adipisicing.
+					</div>
+					<a href="#" class="btn">Подробнее</a>
+				</div>
+			</div>
+		</li>
+		<li class="products__item products__item--color-black products__item--size-double">
+			<div class="products__content">
+				<img src="img/tshirt_04.png" class="products__img" alt="bo-jack tshirt"></img>
+				<div class="products__desc">
+					<div class="products__desc-text">
+						Lorem ipsum dolor sit amet consectetur adipisicing.
+					</div>
+					<a href="#" class="btn">Подробнее</a>
+				</div>
+			</div>
+		</li>
+		<li class="products__item">
+			<div class="products__content">
+				<img src="img/tshirt_05.png" class="products__img" alt="bo-jack tshirt"></img>
+				<div class="products__desc">
+					<div class="products__desc-text">
+						Lorem ipsum dolor sit amet consectetur adipisicing.
+					</div>
+					<a href="#" class="btn">Подробнее</a>
+				</div>
+			</div>
+		</li>
+	</ul>
+	</div>
+	
+	</section>
+
+	
 </body>
 </html>
