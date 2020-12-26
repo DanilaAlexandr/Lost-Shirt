@@ -233,7 +233,6 @@ ul li{
 	position: absolute;
 	top: 2px;
 	right: 28px;
-
 }
 .collections__list{
 	display: flex;
@@ -246,6 +245,35 @@ ul li{
 	background: url(../img/pattern.png) center center / 500px;
 
 }
+.collections__item:before{
+	content: "";
+	display: block;
+	position: absolute;
+	height: 100%;
+	width: 50%;
+}
+.collections__item--type-guys{
+	background-image: url(..img/);
+}
+.collections__link{
+	display: block;
+	padding: 74px 13% 74px 44%;
+	text-decoration: none;
+	color: inherit;
+	font-size: 15px;
+}
+.collections__title{
+	font-family: var(--titleFont);
+	font-size: 70px;
+	font-weight: bold;
+	line-height: 1;
+	text-transform: uppercase;
+	margin-top: 0;
+	margin-bottom: 11px;
+}
 .collections_item:last-child{
 	margin-right: 0;
+}
+.collections__desc{
+	margin-bottom: 28px;
 }
