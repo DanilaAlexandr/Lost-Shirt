@@ -191,6 +191,9 @@ ul li{
 	transform: translateY(100%);
 	transition: transform .3s;
 }
+.products{
+	margin-bottom: 160px;
+}
 .products__img{
 	display: block;
 	max-height: 100%;
@@ -243,27 +246,45 @@ ul li{
 	overflow: hidden;
 	margin-right: 30px;
 	background: url(../img/pattern.png) center center / 500px;
+	position: relative;
 
 }
 .collections__item:before{
 	content: "";
 	display: block;
 	position: absolute;
-	height: 100%;
-	width: 50%;
+	height: 176%;
+	width: 60%;
+	top: -17%;
+	left: -18%;
+	background: center center / contain no-repeat;
 }
-.collections__item--type-guys{
-	background-image: url(..img/);
+.collections__item--type-guys:before{
+	background-image: url(../img/collection_man.png);
 }
+.collections__item--type-girl:before{
+	background-image: url(../img/collection_woman.png);
+	top: -31%;
+	width: 80%;
+	left: -25%;
+}
+
 .collections__link{
 	display: block;
 	padding: 74px 13% 74px 44%;
 	text-decoration: none;
 	color: inherit;
 	font-size: 15px;
+	position: relative;
+	height: 100%;
+	box-sizing: border-box;
+}
+.collections__link:hover .btn{
+	background: var(--red);
+	color:#fff;
 }
 .collections__title{
-	font-family: var(--titleFont);
+	font-family: var(--titlesFont);
 	font-size: 70px;
 	font-weight: bold;
 	line-height: 1;
@@ -276,4 +297,7 @@ ul li{
 }
 .collections__desc{
 	margin-bottom: 28px;
+}
+.collections{
+	margin-bottom: 135px;
 }
